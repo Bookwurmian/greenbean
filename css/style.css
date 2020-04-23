@@ -1,0 +1,144 @@
+html{
+font-size:62.5%;
+}
+body{
+	font-family: 'Montserrat', san serif;
+	font-size: 1.2rem;
+	color: #222;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+header{
+	height:110px;
+	border-bottom:3px solid #77a466;
+	margin:0 auto;
+}
+header h1{
+float: left;
+margin: 0;
+padding: 38px 0;
+	}
+.full{
+	width:100%;
+	margin: 0 auto;
+
+}
+.half{
+	width:50%;
+	float: left;
+}
+.third{
+	width:30%;
+	text-align:left;
+	float:left;
+}
+.banner{
+	height: 288px;
+	background: url('../img/greenbean.png');
+
+		border-bottom:3px solid #77a466;
+
+}
+h1{
+font-size:3rem;
+font-weight:700;
+text-transform:uppercase;
+}
+h2{
+	text-transform: uppercase;
+font-size:1.3rem;
+	color:#77a466;
+	font-weight:700;
+}
+h3{
+	text-transform: uppercase;
+	font-size:1.2rem;
+	font-weight:700;
+	color:#222;
+		padding: 10px 30px;
+}
+p{
+font-family:'Montserrat'
+font-weight:400;
+font-size:1.6rem;
+color:#222;
+  padding: 0 30px;
+}
+header nav{
+	float:right;
+	padding: 46px 0;
+}
+header nav ul{
+	margin:0;
+	padding:0;
+}
+header nav ul li{
+	text-transform: uppercase;
+	font-size:1.4rem;
+	display:inline-block;
+	padding:0 10px;
+}
+header nav ul li a{
+		color:77a466;
+			text-decoration: none;
+}
+a:link, a:visited, a:hover, a:active{
+	color: #77a466;
+	text-decoration: none;
+}
+ul{
+	list-style:none;
+	line-height:30px;
+}
+
+li{
+	text-decoration: none;
+}
+.bottom{
+	margin:0 auto;
+	clear:both;
+	border-top:1px solid #eee;
+}
+
+.footer {
+	border-top:1px solid #eee;
+	text-transform: uppercase;
+	height:50px;
+	margin:0 auto;
+  clear:both;
+  text-align: center;
+	font-size:1.6rem;
+}
+.highlight{
+	color:#77a466
+}
+
+.menu{
+		color:#77a466;
+		font-size:1.6rem;
+	}
+.review{
+color:#333;
+line-height: 21px;
+}
+.contact{
+	color:#333;
+line-height: 24px;
+}
+#about{
+	height:160px;
+	padding:2%;
+}
+#fresh{
+	font-family: 'Galada', cursive;
+	font-size:1.6rem;
+	color:#77a466;
+}
+
+.clearfix:after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
